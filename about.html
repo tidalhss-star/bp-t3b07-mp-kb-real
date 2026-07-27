@@ -1,448 +1,105 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마포 노래방 내돈내산 | 진짜 정보만 때려박은 상세 페이지</title>
-    <meta name="description" content="마포 노래방 내돈내산 정보. 홍대입구역 3번 출구 1분, 1시간 9,900원. 음질, 마이크 상태, 청결도, 시스템까지 깐깐하게 기록한 리얼 데이터.">
-    <meta name="keywords" content="마포 노래방 내돈내산, 마포 노래방 정보, 홍대 노래방, 가성비 노래방, 마포구 노래방, 노래방 시스템, 마포 노래방 추천">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-noir-gold">
-    <link rel="canonical" href="https://t3b07-mp-kb-real.maphoshirts.com/about.html">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="마포 노래방 내돈내산 | 진짜 정보만 때려박은 상세 페이지">
-    <meta property="og:description" content="홍대입구역 3번 출구 1분, 1시간 9,900원. 음질, 마이크, 청결, 시스템까지 기록한 리얼 데이터.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200">
-    <meta property="og:url" content="https://t3b07-mp-kb-real.maphoshirts.com/about.html">
-    <meta property="og:locale" content="ko_KR">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="마포 노래방 내돈내산 | 진짜 정보만 때려박은 상세 페이지">
-    <meta name="twitter:description" content="홍대입구역 3번 출구 1분, 1시간 9,900원. 음질, 마이크, 청결, 시스템까지 기록한 리얼 데이터.">
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200">
-    <style>
-        /* ---------- CSS Reset & Base ---------- */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            font-size: 16px;
-            -webkit-text-size-adjust: 100%;
-            scroll-behavior: smooth;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background-color: #0a0a0a;
-            color: #f5f5f7;
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-        img, svg {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        a {
-            color: #d4af37;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-        a:hover, a:focus {
-            color: #f0d68a;
-            outline: none;
-        }
-        /* ---------- Layout & Container ---------- */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-        @media (max-width: 768px) {
-            .container {
-                padding: 0 16px;
-            }
-        }
-        /* ---------- Typography ---------- */
-        h1, h2, h3, h4 {
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            line-height: 1.2;
-        }
-        h1 {
-            font-size: 2.8rem;
-            margin-bottom: 0.5rem;
-        }
-        h2 {
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid #d4af37;
-            display: inline-block;
-            padding-bottom: 0.3rem;
-        }
-        h3 {
-            font-size: 1.3rem;
-            margin-bottom: 0.75rem;
-        }
-        p {
-            margin-bottom: 1rem;
-            color: #c0c0c0;
-        }
-        /* ---------- Navigation ---------- */
-        nav {
-            background: #111;
-            border-bottom: 1px solid #2a2a2a;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            padding: 0.75rem 0;
-        }
-        nav .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-        .nav-links a {
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            font-weight: 600;
-            color: #f5f5f7;
-        }
-        .nav-links a:hover {
-            color: #d4af37;
-        }
-        /* Hamburger menu */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            cursor: pointer;
-            background: none;
-            border: none;
-            padding: 5px;
-        }
-        .hamburger span {
-            display: block;
-            width: 28px;
-            height: 2px;
-            background: #f5f5f7;
-            transition: 0.3s;
-        }
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-            .nav-links {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: #111;
-                flex-direction: column;
-                padding: 1rem 0;
-                border-bottom: 1px solid #2a2a2a;
-            }
-            .nav-links.active {
-                display: flex;
-            }
-            .nav-links li {
-                text-align: center;
-                padding: 0.75rem 0;
-            }
-        }
-        /* ---------- Hero ---------- */
-        .hero {
-            padding: 4rem 0 2rem;
-            text-align: center;
-        }
-        .hero .subtitle {
-            font-size: 1.1rem;
-            color: #d4af37;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            margin-bottom: 0.5rem;
-        }
-        .hero h1 {
-            max-width: 800px;
-            margin: 0 auto 1rem;
-        }
-        .hero .meta {
-            font-size: 0.9rem;
-            color: #888;
-            margin-top: 1rem;
-        }
-        /* ---------- Featured Image ---------- */
-        .featured-image {
-            margin: 2rem 0 3rem;
-            border-radius: 12px;
-            overflow: hidden;
-            background: #1a1a1a;
-            min-height: 300px;
-        }
-        .featured-image img {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-        }
-        @media (max-width: 768px) {
-            .featured-image img {
-                height: 250px;
-            }
-        }
-        /* ---------- Section ---------- */
-        section {
-            padding: 3rem 0;
-        }
-        .section-sub {
-            color: #d4af37;
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 0.5rem;
-        }
-        /* ---------- Info Grid ---------- */
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            margin: 2rem 0;
-        }
-        .info-card {
-            background: #151515;
-            border: 1px solid #2a2a2a;
-            border-radius: 12px;
-            padding: 1.5rem;
-            transition: border-color 0.3s;
-        }
-        .info-card:hover {
-            border-color: #d4af37;
-        }
-        .info-card .label {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            color: #d4af37;
-            margin-bottom: 0.5rem;
-        }
-        .info-card .value {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #f5f5f7;
-        }
-        .info-card .detail {
-            font-size: 0.9rem;
-            color: #999;
-            margin-top: 0.5rem;
-        }
-        /* ---------- Spec Table ---------- */
-        .spec-list {
-            list-style: none;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-            margin: 1.5rem 0;
-        }
-        @media (max-width: 768px) {
-            .spec-list {
-                grid-template-columns: 1fr;
-            }
-        }
-        .spec-list li {
-            background: #151515;
-            border: 1px solid #2a2a2a;
-            border-radius: 8px;
-            padding: 1rem 1.2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .spec-list .spec-label {
-            color: #999;
-            font-size: 0.9rem;
-        }
-        .spec-list .spec-value {
-            color: #f5f5f7;
-            font-weight: 600;
-        }
-        /* ---------- CTA ---------- */
-        .cta-box {
-            background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
-            border: 1px solid #d4af37;
-            border-radius: 16px;
-            padding: 2.5rem;
-            text-align: center;
-            margin: 3rem 0;
-        }
-        .cta-box h3 {
-            font-size: 1.8rem;
-            margin-bottom: 0.5rem;
-        }
-        .cta-box p {
-            color: #bbb;
-            max-width: 600px;
-            margin: 0 auto 1.5rem;
-        }
-        .tel-link {
-            display: inline-block;
-            background: #d4af37;
-            color: #0a0a0a;
-            padding: 0.8rem 2.5rem;
-            border-radius: 50px;
-            font-weight: 700;
-            font-size: 1.2rem;
-            transition: background 0.3s, transform 0.2s;
-        }
-        .tel-link:hover {
-            background: #f0d68a;
-            transform: scale(1.03);
-        }
-        /* ---------- Footer ---------- */
-        footer {
-            border-top: 1px solid #2a2a2a;
-            padding: 2rem 0;
-            text-align: center;
-            color: #666;
-            font-size: 0.85rem;
-        }
-        /* ---------- Placeholder Image ---------- */
-        .placeholder-img {
-            background: #1e1e1e;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #555;
-            font-size: 0.9rem;
-            min-height: 200px;
-            border-radius: 12px;
-        }
-        /* ---------- Utility ---------- */
-        .text-gold {
-            color: #d4af37;
-        }
-        .mt-2 {
-            margin-top: 2rem;
-        }
-        .mb-2 {
-            margin-bottom: 2rem;
-        }
-    </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마포 노래방 내돈내산 — 정보</title>
+  <meta name="description" content="마포 지역 노래방을 내돈내산 방식으로 이용할 때 꼭 알아야 할 상세 정보와 지역 시그널을 제공합니다.">
+  <meta name="keywords" content="마포 노래방, 내돈내산, 노래방 정보, 마포 노래방 이용 팁, 마포 노래방 예약">
+  <link rel="canonical" href="https://t3b07-mp-kb-real.maphoshirts.com/about.html">
+  <meta property="og:title" content="마포 노래방 내돈내산 — 정보">
+  <meta property="og:description" content="마포 지역 노래방을 내돈내산 방식으로 이용하기 위한 상세 가이드와 FAQ를 한눈에 정리했습니다.">
+  <meta property="og:url" content="https://t3b07-mp-kb-real.maphoshirts.com/about.html">
+  <meta property="og:type" content="website">
+  <style>
+    :root{--primary:#ff5e5e;--bg:#111;--text:#eee;--accent:#ff9a00}
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{font-size:16px;background:var(--bg);color:var(--text);font-family:"Apple SD Gothic Neo",sans-serif}
+    body{padding:2rem}
+    .n-head-zwo9{display:flex;flex-direction:column;align-items:center;margin-bottom:2rem}
+    .n-head-zwo9 h1{font-size:2.5rem;color:var(--primary);margin-bottom:.5rem}
+    .n-head-zwo9 p{font-size:1rem;opacity:.8}
+    .v-txt-xtst{line-height:1.6}
+    .v-txt-xtst ul{list-style:none;margin:1rem 0}
+    .v-txt-xtst a{color:var(--accent);text-decoration:none}
+    .x-box-glrs{border:1px solid var(--primary);border-radius:.5rem;padding:1rem;margin:1rem 0;transition:transform .2s}
+    .x-box-glrs:hover{transform:scale(1.02)}
+    .n-btn-lm3h{display:inline-block;background:var(--primary);color:#fff;padding:.75rem 1.5rem;border-radius:.5rem;margin:1rem .5rem 0 0;text-align:center}
+    .n-btn-lm3h:nth-of-type(even){background:var(--accent)}
+    .n-btn-lm3h h2{margin:0;font-size:1rem}
+  </style>
 </head>
 <body>
+  <nav class="nav-present">
+    <a href="/">홈</a>
+    <a href="/list">목록</a>
+    <a href="/info">정보</a>
+    <a href="/faq">FAQ</a>
+  </nav>
 
-<nav>
-    <div class="container">
-        <a href="/" style="font-weight:700; font-size:1.1rem; color:#d4af37;">MP·KB</a>
-        <button class="hamburger" aria-label="메뉴 열기" onclick="document.querySelector('.nav-links').classList.toggle('active')">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-links">
-            <li><a href="/">홈</a></li>
-            <li><a href="/review">리뷰</a></li>
-            <li><a href="/info">정보</a></li>
-            <li><a href="/price">가격</a></li>
-            <li><a href="/faq">FAQ</a></li>
-        </ul>
+  <header class="n-head-zwo9">
+    <h1>마포 노래방 내돈내산 정보</h1>
+    <p>친구·가족·동료와 함께, 예산을 최소화하면서 최고의 노래방 경험을 만들 수 있는 모든 팁을 모았습니다.</p>
+  </header>
+
+  <section class="v-txt-xtst">
+    <h2>1️⃣ 기본 이용 가이드</h2>
+    <p>마포는 지하철 2호선, 6호선, 공항철도가 교차하는 교통 요지이기 때문에 접근성이 뛰어납니다. 가장 많이 찾는 역은 홍대입구와 합정역이며, 각각 도보 5분 이내에 여러 노래방이 밀집해 있습니다. 이들 역 주변은 유동 인구가 많아 저녁 시간대에 예약이 빠르게 마감되니, 미리 온라인 예약 서비스를 활용하거나 현장 전화 예약을 권장합니다.</p>
+    <p>노래방 내부는 방음 설계가 최신식이며, 24시간 운영하는 곳도 일부 존재합니다. 하지만 야간 운영 시 추가 요금이 적용될 수 있으니, 이용 전 반드시 사전 확인이 필요합니다. 결제는 현금, 카드, 모바일 결제 모두 지원하지만, 내돈내산을 목표로 한다면 사전 결제 프로모션을 제공하는 앱을 통해 사전 결제하고 적립 포인트를 활용하는 것이 비용 절감에 큰 도움이 됩니다.</p>
+  </section>
+
+  <section class="v-txt-xtst">
+    <h2>2️⃣ 시간대·목적별 활용 팁</h2>
+    <p>주중 낮시간(10시~14시)은 일반적으로 할인 요금이 적용됩니다. 이때는 대형 방보다는 소규모 방을 선택해도 충분하며, 방마다 최소 인원 제한이 없기 때문에 2~3명 소규모 모임에 최적입니다. 반면 주말 저녁(18시~22시)은 방이 금방 차므로, 사전 예약이 필수이며, 인원수에 따라 대형 방을 미리 확보하는 것이 좋습니다.</p>
+    <p>특별한 목적이 있다면, 예를 들어 노래 경연 준비나 기업 이벤트를 계획 중이라면, 별도 사운드 테스트와 마이크 체크가 가능한 프라이빗 룸을 예약하십시오. 이 경우 사전 현장 방문을 통해 장비 사양을 확인하고, 필요 시 추가 마이크·스피커 옵션을 선택할 수 있습니다.</p>
+  </section>
+
+  <section class="v-txt-xtst">
+    <h2>3️⃣ 인원·시점·목적별 체크리스트</h2>
+    <div class="x-box-glrs">
+      <h3>소규모 인원(2~4명)</h3>
+      <ul>
+        <li>✅ 방 크기: 4~6인용 소형 방</li>
+        <li>✅ 요금: 1인당 5,000원 이하</li>
+        <li>✅ 추천 시간: 평일 낮시간</li>
+        <li>✅ 특징: 마이크·스피커 기본 제공, 음향 보정 필요 없음</li>
+      </ul>
     </div>
-</nav>
+    <div class="x-box-glrs">
+      <h3>중대형 인원(5~12명)</h3>
+      <ul>
+        <li>✅ 방 크기: 10~12인용 대형 방</li>
+        <li>✅ 요금: 1인당 7,000~9,000원</li>
+        <li>✅ 추천 시간: 주말 저녁 사전 예약 필수</li>
+        <li>✅ 특징: 듀얼 스피커, 조명 효과, 별도 마이크 추가 가능</li>
+      </ul>
+    </div>
+    <div class="x-box-glrs">
+      <h3>특수 목적(경연·기업 행사)</h3>
+      <ul>
+        <li>✅ 방 크기: 15인 이상 프라이빗 룸</li>
+        <li>✅ 요금: 시간당 별도 협의</li>
+        <li>✅ 사전 현장 점검 필요</li>
+        <li>✅ 특징: 마이크·시스템 별도 테스트, 조명·영상 장비 옵션 제공</li>
+      </ul>
+    </div>
+  </section>
 
-<main>
-    <div class="container">
-        <section class="hero">
-            <p class="subtitle">📍 마포구 · 홍대입구역 3번 출구</p>
-            <h1>마포 노래방 내돈내산<br>진짜 정보만 때려박았다</h1>
-            <p class="meta">2025년 3월 기준 · 직접 발로 뛰고 부른 후기 · 가격, 음질, 시스템까지</p>
-        </section>
+  <section class="v-txt-xtst">
+    <h2>4️⃣ FAQ</h2>
+    <p><strong>Q: 현금 결제 없이 완전히 카드·앱만으로 결제할 수 있나요?</strong><br>
+    A: 대부분의 노래방이 카드와 모바일 결제를 지원하므로, 현금 없이도 전액 결제가 가능합니다. 다만, 프로모션 쿠폰은 현금 결제에만 적용될 수 있으니 사전 확인이 필요합니다.</p>
 
-        <div class="featured-image">
-            <img src="https://images.unsplash.com/photo-1571266028243-e4733b0f0bb0?w=1200" alt="마포 노래방 내부 전경" loading="lazy">
-        </div>
+    <p><strong>Q: 노래방 예약 취소 시 환불 정책은 어떻게 되나요?</strong><br>
+    A: 예약 취소는 이용 24시간 전까지 전액 환불이 가능하고, 24시간 이내에는 위약금 30%가 차감됩니다. 앱에서 실시간 취소가 가능하니, 일정이 변동될 경우 바로 조치해 주세요.</p>
 
-        <section>
-            <h2>📍 위치 & 접근성</h2>
-            <div class="info-grid">
-                <div class="info-card">
-                    <div class="label">주소</div>
-                    <div class="value">서울 마포구 와우산로 29길 34</div>
-                    <div class="detail">홍대입구역 3번 출구에서 도보 1분</div>
-                </div>
-                <div class="info-card">
-                    <div class="label">영업 시간</div>
-                    <div class="value">매일 12:00 ~ 익일 06:00</div>
-                    <div class="detail">주말 및 공휴일 동일</div>
-                </div>
-                <div class="info-card">
-                    <div class="label">주차</div>
-                    <div class="value">불가 (인근 유료 주차장 이용)</div>
-                    <div class="detail">홍대 공영주차장 도보 3분</div>
-                </div>
-                <div class="info-card">
-                    <div class="label">전화</div>
-                    <div class="value">02-1234-5678</div>
-                    <div class="detail">예약 가능 · 주말엔 필수</div>
-                </div>
-            </div>
-        </section>
+    <p><strong>Q: 야간에 이용할 경우 추가 비용이 발생하나요?</strong><br>
+    A: 네, 일부 노래방은 22시 이후에 야간 요금(시간당 10~15% 추가)이 적용됩니다. 사전 예약 단계에서 야간 요금 여부를 확인하고, 필요 시 예산에 반영하시기 바랍니다.</p>
+  </section>
 
-        <section>
-            <h2>💰 가격 정보 (내돈내산 인증)</h2>
-            <ul class="spec-list">
-                <li>
-                    <span class="spec-label">1시간 기본</span>
-                    <span class="spec-value">9,900원</span>
-                </li>
-                <li>
-                    <span class="spec-label">2시간 패키지</span>
-                    <span class="spec-value">17,000원</span>
-                </li>
-                <li>
-                    <span class="spec-label">3시간 패키지</span>
-                    <span class="spec-value">24,000원</span>
-                </li>
-                <li>
-                    <span class="spec-label">종일권 (12:00~18:00)</span>
-                    <span class="spec-value">29,000원</span>
-                </li>
-                <li>
-                    <span class="spec-label">음료 추가</span>
-                    <span class="spec-value">2,000원~</span>
-                </li>
-                <li>
-                    <span class="spec-label">안주 세트</span>
-                    <span class="spec-value">12,000원~</span>
-                </li>
-            </ul>
-            <p style="margin-top:1rem;"><strong>내돈내산 팁:</strong> 2시간 패키지가 가장 가성비 갑. 음료는 편의점에서 사 와도 OK (눈치 없음).</p>
-        </section>
-
-        <section>
-            <h2>🎤 시스템 & 음질 (깐깐하게 평가)</h2>
-            <div class="info-grid">
-                <div class="info-card">
-                    <div class="label">마이크</div>
-                    <div class="value">슈어 SM58</div>
-                    <div class="detail">유선 2개, 무선 1개. 상태 깨끗함</div>
-                </div>
-                <div class="info-card">
-                    <div class="label">스피커</div>
-                    <div class="value">JBL EON ONE</div>
-                    <div class="detail">저음 꽉 차고, 고음 찢어짐 없음</div>
-                </div>
-                <div class="info-card">
-                    <div class="label">곡 수</div>
-                    <div class="value">60,000곡+</div>
-                    <div class="detail">TJ미디어, 금영 병행. 최신곡 빠름</div>
-                </div>
-                <div class="info-card">
-                    <div class="label">리모컨</div>
-                    <div class="value
+  <footer>
+    <a class="n-btn-lm3h" href="/list"><h2>다른 페이지 보기</h2></a>
+    <a class="n-btn-lm3h" href="/contact"><h2>문의하기</h2></a>
+  </footer>
 </body>
 </html>
